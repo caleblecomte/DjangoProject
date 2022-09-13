@@ -12,5 +12,6 @@ urlpatterns = [
     path('create-room/', v.createRoom, name="create-room"),
     path('update-room/<str:pk>', v.updateRoom, name="update-room"),
     path('delete-room/<str:pk>', v.deleteRoom, name="delete-room"),
+    path('delete-message/<str:pk>', v.deleteMessage, name="delete-message"),
 
 ]
